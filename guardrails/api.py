@@ -2,7 +2,7 @@ import os
 from typing import Optional
 
 from guard_rails_api_client import AuthenticatedClient
-from guard_rails_api_client.api.guard import update_guard, validate
+from guard_rails_api_client.api.guards import update_guard, validate
 from guard_rails_api_client.models import Guard, ValidatePayload
 
 
